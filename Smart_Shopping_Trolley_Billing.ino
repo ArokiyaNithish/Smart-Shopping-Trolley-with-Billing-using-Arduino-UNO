@@ -10,7 +10,7 @@ MFRC522 rfid(SS_PIN, RST_PIN);
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Define RFID card UIDs
-String cardUIDs[4] = {
+String cardUIDs[4] = {   //use your RFID card UID id
   "EF 69 35 1E",  // Milk
   "F3 AB DD E2",  // Bread
   "63 97 60 E4",  // Juice
